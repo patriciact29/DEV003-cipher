@@ -1,5 +1,11 @@
 # Cifrado César
 
+## Quiénes son los principales usuarios de producto
+Publico en general
+## Cuáles son los objetivos de estos usuarios en relación con tu producto
+que puedan guardar sus claves y usuarios de manera segura
+## Cómo cree que el producto que está creando está resolviendo sus problemas
+podran guardar donde deseen sus contraseñas secretas sin que alguien sepa descifrarlas
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
@@ -49,7 +55,7 @@ específico de caracteres (_offset_). Lo harás utilizando HTML, CSS y JavaScrip
 
 La temática es libre. Piensa en qué situaciones se necesitaría cifrar un mensaje.
 Decide cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes,
-colores, etc.) Algunas ideas de ejemplo:  
+colores, etc.) Algunas ideas de ejemplo:
 
 * Crear claves seguras para el email.
 * Encriptar/cifrar una tarjeta de crédito.
@@ -85,7 +91,7 @@ conceptos también.
 ## 4. Hito: Criterios de aceptación mínimos del proyecto
 
 Estos son los requisitos que tu proyecto debe que cumplir para asegurar que tu trabajo
-cubra los objetivos principales.  
+cubra los objetivos principales.
 
 **1. Una interfaz que debe permitir a la usuaria:**
 
@@ -106,15 +112,15 @@ cubra los objetivos principales.
     entero (positive integer).
   - Ver el resultado del mensaje descifrado.
 
-**2. Pruebas unitarios de los métodos.**  
+**2. Pruebas unitarios de los métodos.**
 Los metódos de `cipher` (`encode` y `decode`) deben tener cobertura con
 pruebas unitarias.
 
-**3. Código de tu proyecto subido a tu repo y interfaz "desplegada".**  
-El código final debe estar subido en un repositorio en GitHub.  
+**3. Código de tu proyecto subido a tu repo y interfaz "desplegada".**
+El código final debe estar subido en un repositorio en GitHub.
 La interfaz o pagina web, debe ser "desplegada" usando GitHub Pages.
 
-**4. Un README que contiene una definición del producto.**  
+**4. Un README que contiene una definición del producto.**
 En el README cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
 para definir el producto final a nivel de experiencia y de interfaz. Estas
 preguntas sirven como guia:
@@ -147,7 +153,7 @@ también conocido como Vanilla JavaScript.
 Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
 repositorio que contiene un _boilerplate_ con tests (pruebas). Un _boilerplate_
 es la estructura basica de un proyecto que sirve como un punto de partida con
-archivos inicial y configuración basica de dependencias y tests.  
+archivos inicial y configuración basica de dependencias y tests.
 
 Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
 y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el

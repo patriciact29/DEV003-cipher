@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
+    <head>
     <meta charset="utf-8">
     <title>CIFRADO CESAR</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
+   </head>
   <body>
+    <div class="titulo">
     <header>SECRET PASSWORD</header>
-    <div id="pagina principal">
-      <p>¡Bienvenido!</p>
-      <P>Codifica y decodifica tus claves secretas</P>
-      <button class="codificar" onclick="codificar()"> CODIFICAR </button>
-      <button class="decodificar" onclick="decodificar()"> DECODIFICAR </button>
-    </div>  
-    <did id="pagina codificar"
-      <p>Ingrese el mensaje</p>
-      <input type="text" name="textocodificar" id="textocodificar" </input></br>
-      <p>Indique el desplazamiento
-      <Input type="number" name="desplazamiento" id="desplazamiento"</input></Input><br></p>
-      <button class="CODIFICA TU MENSAJE" onclick="codificarmensaje()"> CODIFICA TU MENSAJE </button>
-      <p>Texto codificado</p>
-      <input type="text" name="textocodificado" id="textocodificado" </input></br>
-      <h1></h1>
+    <p><img src="./imagenes1/candadoamarillo.png" class="imagen1" alt="candado"></p>
+  </div>
+    <div class="contenido1">
+      <h1>¡Bienvenido!</h1>
+      <h2>Codifica y decodifica tus claves secretas</h2>
+      <h3>Ingresa tu clave</h3>
+      <p><textarea name ="textarea" id="textarea" class="textarea" rows="9" cols="70"> </textarea> </p>
+      <h3>Indique el desplazamiento</h3>
+      <input type="number" class="desplazamiento" id="offset" value="1" min="1"/>
+      <label for = "offset"></label>
+    <p><button class="boton" type="button" id= "cipher" > CIFRAR </button>
+      <button class="boton"  type="button" id= "descipher" > DESCIFRAR </button></p>
+      <h3>Texto Codificado/Decodificado:</h3>
+      <p><output id="message" for="textarea offset"></output></p>
     </div>
     <script src="index.js" type="module"></script>
   </body>
