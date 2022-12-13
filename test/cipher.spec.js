@@ -53,8 +53,8 @@ describe('cipher', () => {
     // Se quiser adicionar testes para caracteres não alfabéticos, descomente o
     // teste abaixo.
     //
-    it('should return " !@" for " !@"', () => {
-      expect(cipher.encode(33, ' !@')).toBe(' !@');
+    it('should return " " for " "', () => {
+      expect(cipher.encode(33, ' ')).toBe(' ');
     });
   });
 
@@ -100,8 +100,8 @@ describe('cipher', () => {
     // Se quiser adicionar testes para caracteres não alfabéticos, descomente o
     // teste abaixo.
     //
-    it('should return " !@" para " !@"', () => {
-      expect(cipher.decode(33, ' !@')).toBe(' !@');
+    it('should return " " para " "', () => {
+      expect(cipher.decode(33, ' ')).toBe(' ');
     });
   });
 

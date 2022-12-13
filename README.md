@@ -1,11 +1,11 @@
 # Cifrado César
 
 ## Quiénes son los principales usuarios de producto
-Publico en general
+Adultos que tengan acceso a correos, redes sociales, etc.
 ## Cuáles son los objetivos de estos usuarios en relación con tu producto
-que puedan guardar sus claves y usuarios de manera segura
+Que puedan guardar sus claves y usuarios de manera segura
 ## Cómo cree que el producto que está creando está resolviendo sus problemas
-podran guardar donde deseen sus contraseñas secretas sin que alguien sepa descifrarlas
+podran guardar donde deseen sus contraseñas secretas con la seguridad que estan cifradas.
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
